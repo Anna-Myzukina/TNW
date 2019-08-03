@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
+  padding-bottom: 400px;
 }
 ol, ul {
 	list-style: none;
@@ -121,8 +122,12 @@ a{
 	float: left;
 	
 }
-.fixed{
-	text-transform: uppercase;
+div.fixed{
+  display: flex;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  background: grey;
 }
 /*====== END nav ======*/
 
