@@ -205,8 +205,17 @@ line-height: 1.1;
     padding: 0px 10px 10px 10px;
 }
 
+/*===== START latest-news =======*/
+.latest-news a{
+    color: #f42;
+    font-size: 25px;
+}
 
-
-
+.bg-img a:nth-child(1){
+    background-image: url(../TNW/img/Switch-Controller.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 150px;
+}
 
 /*======END main======*/
